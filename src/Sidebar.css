@@ -1,0 +1,130 @@
+.sidebar {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img {
+    margin-left: .5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+
+}
+
+.card {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+
+    min-height: 50px;
+    width: 13rem;
+    margin-top: 50px;
+    background: white;
+    border-radius: 5px;
+}
+
+strong{
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.name > p{
+    margin-left: 1rem;
+    font-weight: 300;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.toggle > h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.newsfeed  button > img,
+.listview button> img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.toggle-buttons{
+ display: flex;
+ border-radius: 10px;
+}
+
+.click{
+    border: none;
+    margin: 10px
+}
+
+.click:hover{
+    border: 4px solid greenyellow;
+    border-radius: 10%;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback > h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.feedback-button {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    background: rgb(136, 253, 125);
+    border: none;
+    font-size: medium;
+    margin: 1rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+}
+

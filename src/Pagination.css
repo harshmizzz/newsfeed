@@ -1,0 +1,28 @@
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px;
+    background: grey;
+    border-radius: 50%;
+    border: 5px solid grey;
+}
+
+
+
+.link:hover {
+    border: 5px solid white;
+
+    background: white;
+    color: black;
+}

@@ -1,4 +1,4 @@
-Live Link https://hm-newsfeed.netlify.app/content1
+Live Link: https://hm-newsfeed.netlify.app/
 
 
 
